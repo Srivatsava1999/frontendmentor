@@ -3,4 +3,70 @@
     padding: 0px;
     box-sizing: border-box;
     background-color: #D5E1EF;
+    /* border: 1px solid black; */
+    font-size: 16px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* flex: 50%; */
+    justify-content: center;
+    /* margin-top: 5%; */
+    width: 100%;
+}
+.qrcard{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    flex:2;
+    background-color: #ffffff;
+    /* justify-content: center; */
+    width: 22%;
+    max-width: 500px;
+    /* place-content: center; */
+    margin: 8%;
+    box-shadow: 0px 1px 10px 5px rgb(0,0,0,0.15);
+}
+img{
+    border-radius: 1rem;
+    margin: 5% 5%;
+    width: 90%;
+    height: 90%;
+}
+.text{
+    background-color: #ffffff;
+    width: 90%;
+    margin: 0% 5%;
+    font-family: "outfit";
+    /* padding: 5%; */
+    height: 26%;
+    text-align: center;
+    margin-bottom: 8%;
+}
+p{
+    background-color: #ffffff;
+    margin: 5% 5%;
+}
+#bold{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 120%;
+    color: #1F314F;
+}
+#regular{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    padding: 0%;
+    color: #68778D;
+}
+.blank1{
+    flex:1;
+}
+.blank2{
+    flex:3;
+    /* width: 25%; */
 }
